@@ -1,0 +1,49 @@
+* {
+    margin: 1rem;
+    padding: 0;
+}
+.topnav  {
+    background-color:rgb(100, 112, 100);
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: space-around;
+    border-radius: 20%;
+}
+.topnav a {
+
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.topnav a:hover {
+    color:chocolate;
+}
+
+
+.content {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+.content1 {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(187, 163, 163);
+    color: rgb(32, 48, 31);
+}
+.content2 {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color: rgb(42, 223, 18);
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  
+  
+}
